@@ -20,7 +20,7 @@ Step 7 : Declare Main method/function . In the Main method , set up the device a
 
 Step 8 : Atlast , free the host and device memory then reset the device and check for results.
 
-##Program:
+## Program:
 ```
 kernel reduceUnrolling8
 Name : Dinesh.S
@@ -719,7 +719,7 @@ int main(int argc, char **argv)
     return EXIT_SUCCESS;
 }
 ```
-##kernel reduceUnrolling16
+## kernel reduceUnrolling16
 ```
 Name : Dinesh.S 
 Reg No : 212222230033
