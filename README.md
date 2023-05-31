@@ -1495,7 +1495,7 @@ int main(int argc, char **argv)
 }
 ```
 ## Output:
-
+```
 kernel reduceUnrolling8
 root@MidPC:/home/student/Desktop# nvcc --version
 nvcc: NVIDIA (R) Cuda compiler driver
@@ -1634,6 +1634,6 @@ root@MidPC:/home/student/Desktop#
 3e16 316
 
 The time taken by the kernel reduceUnrolling16 is comparatively less to the kernal reduceUnrolling8 as each thread in the kernel reduceUnrolling16 handles 16 data blocks.
-
+```
 ## Result:
 Implementation of the kernel reduceUnrolling16 is done and the performance of kernal reduceUnrolling16 is comapared with kernal reduceUnrolling8 using proper metrics and events with nvprof.
